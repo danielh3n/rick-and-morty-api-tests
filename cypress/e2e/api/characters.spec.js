@@ -10,7 +10,6 @@ describe('Rick and Morty API - Characters Endpoint', () => {
         'origin', 'location', 'image', 'episode', 'url', 'created'
       );
 
-      // origin and location are objects with name and url
       expect(char.origin).to.have.all.keys('name', 'url');
       expect(char.location).to.have.all.keys('name', 'url');
     });
