@@ -1,0 +1,12 @@
+{
+  "name": "rick-and-morty-api-tests",
+  "version": "1.0.0",
+  "description": "Cypress API tests for Rick and Morty API",
+  "scripts": {
+    "headless": "cypress run",
+    "open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^12.0.0"
+  }
+}
