@@ -10,6 +10,7 @@ This project contains automated API tests for the [Rick and Morty API](https://r
 - Verify error handling with invalid requests and non-existent resources
 - Check response time performance (<1 second)
 - Test invalid HTTP methods to verify API behavior
+- Runs in GitHub Actions CI on push and PR
 
 ## Project Structure
 
@@ -51,3 +52,7 @@ npm headless
 
 - This project demonstrates API testing skills focusing on response validation, error handling, and performance checks.
 - The Rick and Morty API is a public API with no authentication required.
+
+## Author
+
+Daniel Hentges — [@danielh3n](https://github.com/danielh3n)
